@@ -11,4 +11,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SAST-ExampleWebApp.Core\SAST-ExampleWebApp.Core.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAST.WebApp.Infrastructure", "SAST.WebApp.Infrastructure\SAST.WebApp.Infrastructure.csproj", "{BD46D23C-1AC8-4E56-B43D-A4A9FA7BEBC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAST-ExampleWebApp.Core", "SAST-ExampleWebApp.Core\SAST-ExampleWebApp.Core.csproj", "{4719EB82-B0AF-4510-997C-C38E60BC5D95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{16C0B4E7-1B7C-4BC8-AAA4-F74CC77BB6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16C0B4E7-1B7C-4BC8-AAA4-F74CC77BB6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16C0B4E7-1B7C-4BC8-AAA4-F74CC77BB6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD46D23C-1AC8-4E56-B43D-A4A9FA7BEBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD46D23C-1AC8-4E56-B43D-A4A9FA7BEBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD46D23C-1AC8-4E56-B43D-A4A9FA7BEBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD46D23C-1AC8-4E56-B43D-A4A9FA7BEBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4719EB82-B0AF-4510-997C-C38E60BC5D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4719EB82-B0AF-4510-997C-C38E60BC5D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4719EB82-B0AF-4510-997C-C38E60BC5D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4719EB82-B0AF-4510-997C-C38E60BC5D95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

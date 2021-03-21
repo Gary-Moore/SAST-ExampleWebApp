@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using SAST_ExampleWebApp.Core;
 
 namespace SAST.WebApp.Web.Pages
 {
@@ -19,7 +20,8 @@ namespace SAST.WebApp.Web.Pages
 
         public void OnGet()
         {
-
+            var service = new DodgyService();
+            service.PerformDodgyDatabaseAction();
         }
     }
 }
