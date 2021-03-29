@@ -22,7 +22,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity 
+      run: dotnet test --no-build --verbosity normal
     - name: SonarQube Scan
       # You may pin to the exact commit or the version.
       # uses: kitabisa/sonarqube-action@a40c5bc8f6f33b9e0d5035caf5910807ce1d554d
