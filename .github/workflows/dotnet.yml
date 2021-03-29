@@ -22,4 +22,17 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity 
+    - name: SonarQube Scan
+      # You may pin to the exact commit or the version.
+      # uses: kitabisa/sonarqube-action@a40c5bc8f6f33b9e0d5035caf5910807ce1d554d
+      uses: kitabisa/sonarqube-action@v1.1.0
+      with:
+        # SonarQube server URL
+        host: http://sonarqube.gammaweb.co.uk
+        # The project's unique key. Allowed characters are: letters, numbers, -, _, . and :, with at least one non-digit.
+        projectKey: Gary-Moore_SAST-ExampleWebApp
+        # Name of the project that will be displayed on the web interface.
+        projectName: SAST-ExampleWebApp
+        # Login or authentication token of a SonarQube user
+        login: fd96f388cbc27ebb9d6f0e28e68e14fc9e954384
